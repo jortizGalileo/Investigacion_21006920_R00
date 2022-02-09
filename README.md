@@ -53,8 +53,8 @@ Cómo se ha mencionado Git es una herramienta de control de mientras que GitHub 
 
 ### Bibliografía
 - Atlassian Bitbucket. (s.f.). Qué es Git. Obtenido de Tutorials: https://www.atlassian.com/es/git/tutorials/what-is-git
+- Educación-Wiki. (n.d.). Terminología Git. Retrieved from https://es.education-wiki.com/: https://es.education-wiki.com/8445422-git-terminology
 - Garcia, F. (02 de 12 de 2014). Terminología común del control de versiones. Obtenido de NOTAS DE FABIÁN GARCÍA: https://notasdegit.wordpress.com/tag/terminologia/
-- https://es.education-wiki.com/. (s.f.). Terminología Git. Obtenido de https://es.education-wiki.com/: https://es.education-wiki.com/8445422-git-terminology
 - KODETOP. (21 de 07 de 2019). Tutorial básico de Git. Obtenido de KODETOP: https://www.kodetop.com/tutorial-basico-de-git/#:~:text=Terminolog%C3%ADa%20utilizada%20en%20Git,de%20moverse%20entre%20diferentes%20ramas.
 - Udemy. (s.f.). Git, GitHub y GitLab: Uso de repositorios de código. Obtenido de Udemy: https://www.udemy.com/course/git-github-y-gitlab-uso-de-repositorios-de-codigo/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.ES_cc.LATAM&utm_term=_._ag_121424001579_._ad_515898216164_._kw__._de_c_._dm__._pl__._ti_dsa-1237025622372_._li_
 
