@@ -51,10 +51,36 @@ GitHub es una plataforma de desarrollo colaborativo para alojar proyectos utiliz
 ### ¿Cuál es la diferencia entre Git y GitHub?
 Cómo se ha mencionado Git es una herramienta de control de mientras que GitHub es un servicio en la nube basado en la web para alojar su código fuente (un sistema centralizado). CBien se dice que *"Git no requiere GitHub pero GitHub requiere Git.”*
 
+### ¿Cómo crear un repositorio en Git?
+1.	Se debe hacer es crear una cuenta de usuario en https://github.com/
+2.	Configurar las variables globales de git en local, como nombre de usuario.
+- $ git config --global user.name "tu_usuario"
+- $ git config --global user.email @email.com
+3.	Desde la barra de navegación hacer click en enlace “New repository”
+
+![](https://styde.net/wp-content/uploads/2015/04/menu-nuevo-repositorio.png)
+
+4.	En formulario siguiente especificar los detalles del proyecto; es recomendable siempre incluir el archivo readme.md desde el inicio donde se escribirán las instrucciones de instalación, uso e información sobre la licencia del código que contiene el repositorio. Para esto se debe dar check en «Initialize this repository with a REDAME».
+
+![](https://styde.net/wp-content/uploads/2015/04/nuevo-repositorio-git-1024x630.png)
+
+### ¿Cómo clonar un repositorio local?
+1.	Instalar git en la máquina local
+2.	Abrir la consola de comandos (o usar el Git Bash).
+3.	Crear el directorio que contendrá el código del proyecto y ejecutar $ git init para trabajar con el control de versiones
+- $ mkdir proyecto
+- $ cd proyecto
+- $ git init
+4.	Se debe hacer uso de la url  y utilizar el comando:
+- $ git remote add origin https://github.com/proyecto
+6.	Se debe copiar el código en remoto 
+- $ git pull origin master
+
 ### Bibliografía
 - Atlassian Bitbucket. (s.f.). Qué es Git. Obtenido de Tutorials: https://www.atlassian.com/es/git/tutorials/what-is-git
 - Educación-Wiki. (n.d.). Terminología Git. Retrieved from https://es.education-wiki.com/: https://es.education-wiki.com/8445422-git-terminology
 - Garcia, F. (02 de 12 de 2014). Terminología común del control de versiones. Obtenido de NOTAS DE FABIÁN GARCÍA: https://notasdegit.wordpress.com/tag/terminologia/
 - KODETOP. (21 de 07 de 2019). Tutorial básico de Git. Obtenido de KODETOP: https://www.kodetop.com/tutorial-basico-de-git/#:~:text=Terminolog%C3%ADa%20utilizada%20en%20Git,de%20moverse%20entre%20diferentes%20ramas.
+- Styde. (13 de 04 de 2015). Primeros pasos con Git y Github. Obtenido de Styde: https://styde.net/primeros-pasos-con-git-y-github/
 - Udemy. (s.f.). Git, GitHub y GitLab: Uso de repositorios de código. Obtenido de Udemy: https://www.udemy.com/course/git-github-y-gitlab-uso-de-repositorios-de-codigo/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.ES_cc.LATAM&utm_term=_._ag_121424001579_._ad_515898216164_._kw__._de_c_._dm__._pl__._ti_dsa-1237025622372_._li_
 
